@@ -36,25 +36,30 @@ public class IOManager {
             case 1 -> {
                 System.out.println("Iveskite krastines ilgi:");
                 krastine1 = scanner.nextDouble();
+                break;
             }
             case 2 -> {
                 System.out.println("Iveskite statinio 1 ilgi:");
                 krastine1 = scanner.nextDouble();
                 System.out.println("Iveskite statinio 2 ilgi:");
                 krastine2 = scanner.nextDouble();
+                break;
             }
             case 3 -> {
                 System.out.println("Iveskite krastines 1 ilgi:");
                 krastine1 = scanner.nextDouble();
                 System.out.println("Iveskite krastines 2 ilgi:");
                 krastine2 = scanner.nextDouble();
+                break;
             }
             case 4 -> {
                 System.out.println("Iveskite spindulio ilgi:");
                 krastine1 = scanner.nextDouble();
+                break;
             }
             default -> {
                 System.out.println("Tokios figuros ploto skaiciuoti nemoku");
+                break;
             }
         }
     }
