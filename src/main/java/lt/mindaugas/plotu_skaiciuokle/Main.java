@@ -21,6 +21,10 @@ public class Main {
             Statciakampis statciakampis = new Statciakampis(ioManager.getKrastine1(), ioManager.getKrastine2());
             statciakampis.skaiciuokPlota();
             ioManager.spausdinkPlota(statciakampis.toString());
+        } else if (ioManager.getPasirinktaFigura() == 4){
+            Skritulys skritulys = new Skritulys(ioManager.getKrastine1());
+            skritulys.skaiciuokPlota();
+            ioManager.spausdinkPlota(skritulys.toString());
         } else {
             ioManager.spausdinkPlota("");
         }

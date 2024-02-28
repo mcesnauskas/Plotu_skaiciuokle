@@ -26,6 +26,7 @@ public class IOManager {
         System.out.println("1. Kvadratas");
         System.out.println("2. Trikampis");
         System.out.println("3. Staciakampis");
+        System.out.println("4. Skritulys");
         pasirinktaFigura = scanner.nextInt();
     }
 
@@ -47,6 +48,10 @@ public class IOManager {
                 krastine1 = scanner.nextDouble();
                 System.out.println("Iveskite krastines 2 ilgi:");
                 krastine2 = scanner.nextDouble();
+            }
+            case 4 -> {
+                System.out.println("Iveskite spindulio ilgi:");
+                krastine1 = scanner.nextDouble();
             }
             default -> {
                 System.out.println("Tokios figuros ploto skaiciuoti nemoku");
