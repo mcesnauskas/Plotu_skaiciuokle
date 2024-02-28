@@ -27,4 +27,14 @@ public class Figura {
     public String toString() {
         return "Jusu figuros plotas yra: " + plotas + " kv.cm";
     }
+
+    // Krastiniu getteriai trikampiui
+
+    public double getKrastine1() {
+        return krastine1;
+    }
+
+    public double getKrastine2() {
+        return krastine2;
+    }
 }
